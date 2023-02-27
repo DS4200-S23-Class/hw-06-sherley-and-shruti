@@ -1,0 +1,40 @@
+.heading{
+    font-family: Arial;
+    text-align: center;
+}
+
+.body{
+    font-family: Arial;
+}
+
+.Parent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.child1 {
+    width: 33.3%;
+    height: 1000px;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+}
+
+.child2 {
+    width: 33.3%;
+    height: auto;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+}
+
+.child3 {
+    width: 33.3%;
+    height: auto;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+}
+
+.Acknowledgements {
+    text-align:center;
+}
